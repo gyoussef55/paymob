@@ -34,7 +34,7 @@ Before using this plugin, you must download and configure the native Paymob SDKs
    - Create `android/app/libs/` directory
    - Place the AAR file there: `android/app/libs/com/paymob/sdk/Paymob-SDK/1.6.12/Paymob-SDK-1.6.12.aar`
 
-   ![Android Setup Step 1](pictures/Android_1.png)
+   ![Android Setup Step 1](https://raw.githubusercontent.com/gyoussef55/paymob/main/pictures/Android_1.png)
 
 3. **Configure repositories** in `android/build.gradle.kts` (project-level):
    ```kotlin
@@ -93,17 +93,17 @@ Before using this plugin, you must download and configure the native Paymob SDKs
    - Select **Runner** target → **General** tab
    - Scroll to **Frameworks, Libraries, and Embedded Content**
    
-   ![iOS Setup Step 1](pictures/iOS_1.png)
+   ![iOS Setup Step 1](https://raw.githubusercontent.com/gyoussef55/paymob/main/pictures/iOS_1.png)
    
    - Click **+** → **Add Other...** → **Add Files...**
    - Navigate to `ios/Frameworks/` and select `PaymobSDK.xcframework`
    
-   ![iOS Setup Step 2](pictures/iOS_2.png)
+   ![iOS Setup Step 2](https://raw.githubusercontent.com/gyoussef55/paymob/main/pictures/iOS_2.png)
    
    - Click **Add**
    - Change embedding option to **"Embed & Sign"**
    
-   ![iOS Setup Step 3](pictures/iOS_3.png)
+   ![iOS Setup Step 3](https://raw.githubusercontent.com/gyoussef55/paymob/main/pictures/iOS_3.png)
 
 ## Configuration
 

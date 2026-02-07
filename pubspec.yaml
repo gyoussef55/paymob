@@ -1,6 +1,6 @@
 name: paymob
 description: "A Flutter plugin for integrating Paymob payment SDK. Provides easy integration with Paymob's native SDKs for iOS and Android."
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/gyoussef55/paymob
 repository: https://github.com/gyoussef55/paymob
 issue_tracker: https://github.com/gyoussef55/paymob/issues

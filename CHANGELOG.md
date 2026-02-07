@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1]
+
+### Fixed
+- Fixed image URLs in README.md to use absolute GitHub raw URLs for pub.dev compatibility
+
 ## [1.0.0]
 
 ### Added
