@@ -97,7 +97,7 @@ class PaymobPlugin : FlutterPlugin, MethodCallHandler, ActivityAware, PaymobSdkL
         ))
     }
 
-    override fun onFailure() {
+    override fun onFailure(msg: String?) {
         SDKResult?.success(mapOf(
             "status" to "Rejected"
         ))

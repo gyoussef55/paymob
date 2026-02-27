@@ -21,18 +21,18 @@ Run `flutter pub add paymob`.
 
 Before using this plugin, you must download and configure the native Paymob SDKs:
 
-- **Android SDK:** Version **1.6.12** (required)
-- **iOS SDK:** Version **1.2.0** (required)
+- **Android SDK:** Version **1.7.3** (required)
+- **iOS SDK:** Version **1.2.2** (required)
 
 ## Android Setup
 
-**Important:** The Paymob Android SDK is not included in this plugin. You must download and configure **version 1.6.12** in your app.
+**Important:** The Paymob Android SDK is not included in this plugin. You must download and configure **version 1.7.3** in your app.
 
-1. **Download Paymob Android SDK 1.6.12** from [here](https://paymob-my.sharepoint.com/:f:/p/ahmedsobhy/EjQrdOdzUzhIqlQmcsE9Hg0BOVjJYOu2BMGRClGVEa9dJA?e=hfFnnI). Look for `PaymobAndroidSDK1.6.12` in the package.
+1. **Download Paymob Android SDK 1.7.3** from [here](https://paymob-my.sharepoint.com/:f:/p/ahmedsobhy/EjQrdOdzUzhIqlQmcsE9Hg0BOVjJYOu2BMGRClGVEa9dJA?e=hfFnnI). Look for `PaymobAndroidSDK1.6.12` in the package.
 
 2. **Add SDK to your app:**
-   - Create `android/app/libs/` directory
-   - Place the AAR file there: `android/app/libs/com/paymob/sdk/Paymob-SDK/1.6.12/Paymob-SDK-1.6.12.aar`
+   - Create `android/libs/` directory
+   - Place the AAR file there: `android/libs/com/paymob/sdk/Paymob-SDK/1.7.3/Paymob-SDK-1.7.3.aar`
 
    ![Android Setup Step 1](https://raw.githubusercontent.com/gyoussef55/paymob/main/pictures/Android_1.png)
 
@@ -80,9 +80,9 @@ Before using this plugin, you must download and configure the native Paymob SDKs
 
 ## iOS Setup
 
-**Important:** The Paymob iOS SDK is not included in this plugin. You must download and configure **version 1.2.0** in your project.
+**Important:** The Paymob iOS SDK is not included in this plugin. You must download and configure **version 1.2.2** in your project.
 
-1. **Download Paymob iOS SDK 1.2.0** from [here](https://paymob-my.sharepoint.com/:f:/p/mahmoudyoussef/El9q1ULaxcBFkQurwvXkZQEBY9S-6dwhWL9xXQgjEnGPBQ?e=0sKgCf). Look for `PaymobSDK 1.2.0` (xcframework) in the package.
+1. **Download Paymob iOS SDK 1.2.2** from [here](https://paymob-my.sharepoint.com/:f:/p/mahmoudyoussef/El9q1ULaxcBFkQurwvXkZQEBY9S-6dwhWL9xXQgjEnGPBQ?e=0sKgCf). Look for `PaymobSDK 1.2.2` (xcframework) in the package.
 
 2. **Add SDK to your project:**
    - Copy the `PaymobSDK.xcframework` folder to your `ios/Frameworks/` directory
