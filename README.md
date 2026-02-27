@@ -28,7 +28,7 @@ Before using this plugin, you must download and configure the native Paymob SDKs
 
 **Important:** The Paymob Android SDK is not included in this plugin. You must download and configure **version 1.7.3** in your app.
 
-1. **Download Paymob Android SDK 1.7.3** from [here](https://paymob-my.sharepoint.com/:f:/p/ahmedsobhy/EjQrdOdzUzhIqlQmcsE9Hg0BOVjJYOu2BMGRClGVEa9dJA?e=hfFnnI). Look for `PaymobAndroidSDK1.6.12` in the package.
+1. **Download Paymob Android SDK 1.7.3** from [here](https://paymob-my.sharepoint.com/:f:/p/ahmedsobhy/EjQrdOdzUzhIqlQmcsE9Hg0BOVjJYOu2BMGRClGVEa9dJA?e=hfFnnI). Look for `PaymobAndroidSDK1.7.3` in the package.
 
 2. **Add SDK to your app:**
    - Create `android/libs/` directory

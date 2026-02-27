@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.1]
+
+### Fixed
+- README: correct Android SDK package name to `PaymobAndroidSDK1.7.3` (was 1.6.12)
+
 ## [1.1.0]
 
 ### Changed
