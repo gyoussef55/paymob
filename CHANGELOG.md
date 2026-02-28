@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.2]
+
+### Fixed
+- Android: added consumer ProGuard rules to suppress R8 `Missing class kotlinx.parcelize.Parcelize` error in release builds
+
 ## [1.1.1]
 
 ### Fixed

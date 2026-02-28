@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'paymob'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'A Flutter plugin for integrating Paymob payment SDK.'
   s.description      = <<-DESC
 A Flutter plugin for integrating Paymob payment SDK. Provides easy integration with Paymob's native SDKs for iOS and Android.
