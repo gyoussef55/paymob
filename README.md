@@ -151,14 +151,35 @@ final result = await Paymob.pay(
 
 ## Testing
 
-When testing your integration, you can use the following test card information:
+When testing your integration, you can use the following test credentials:
 
-**Card Information for Testing:**
-- **Card Number:** `4987654321098769`
+**Mastercard (Card 1):**
+- **Card Number:** `5123456789012346`
 - **Cardholder Name:** `Test Account`
-- **Expiry Month:** Any valid month (e.g., 12)
-- **Expiry Year:** Any valid year (e.g., 2050)
+- **Expiry Month:** `01`
+- **Expiry Year:** `39`
 - **CVV:** `123`
+
+**Mastercard (Card 2):**
+- **Card Number:** `5123450000000008`
+- **Cardholder Name:** `Test Account`
+- **Expiry Month:** `01`
+- **Expiry Year:** `39`
+- **CVV:** `123`
+
+**Visa:**
+- **Card Number:** `4111111111111111`
+- **Cardholder Name:** `Test Account`
+- **Expiry Month:** `01`
+- **Expiry Year:** `39`
+- **CVV:** `123`
+
+**Mobile Wallet:**
+- **Wallet Number:** `01010101010`
+- **MPin Code:** `123456`
+- **OTP:** `123456`
+
+Source: [Paymob Test Credentials](https://developers.paymob.com/paymob-docs/need-help/faq/test-credentials)
 
 ## API Reference
 
