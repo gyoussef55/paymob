@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0]
+
+### Changed
+- **Android:** Updated native Paymob SDK to 1.8.1
+- **iOS:** Updated native Paymob SDK to 1.3.3
+
 ## [1.1.2]
 
 ### Fixed

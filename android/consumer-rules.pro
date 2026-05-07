@@ -2,3 +2,6 @@
 # The annotation class itself is not present at runtime, so R8 must be told to ignore it.
 -dontwarn kotlinx.parcelize.Parcelize
 -dontwarn kotlinx.parcelize.**
+# Legacy Parcelize annotation package used by older/transitive SDK artifacts.
+-dontwarn kotlinx.android.parcel.Parcelize
+-dontwarn kotlinx.android.parcel.**
